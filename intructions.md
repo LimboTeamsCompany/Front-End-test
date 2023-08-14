@@ -18,11 +18,13 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de interf
 
 4. La interfaz debe ser atractiva y el código debe de estar escrito de forma clara y siempre recordar dividir los archivos y reutilizar Widgets lo más posible.
 
+5. Puedes sumarle las funciones o detalles que desees, cualquier animacion, cambio visual o idea nueva, es mas que bienvenida.
+
 ## Recursos
 
 - [Link al archivo de Figma] <https://www.figma.com/file/PwMkkCJC9jmWZlSVAn4LGT/Flutter-UI-test?type=design&node-id=0%3A1&mode=design&t=5yHEQPI9RK80cleW-1>: Aca encontrarás la interfaz que debes replicar en Flutter. ¡Diviértete dándole vida!
 
-- [Archivo pizzas.json](url_al_archivo_json): Descarga este archivo JSON y úsalo para obtener la información sobre las pizzas que mostrarás en la aplicación.
+- [Archivo pizzas.json] <https://github.com/LimboTeamsCompany/Front-End-test/blob/master/pizzas_api.json>: Descarga este archivo JSON y úsalo para obtener la información sobre las pizzas que mostrarás en la aplicación.
 
 ## Entrega
 
