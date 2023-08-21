@@ -2,7 +2,7 @@
 
 ¡Hola!
 
-Felcidades por llegar a esta etapa de la prueba técnica para unirte a nuestro equipo en Limboteams como Desarrollador de Flutter. Estamos emocionados de ver lo que puedes hacer y queremos que disfrutes el proceso.
+Felicidades por llegar a esta etapa de la prueba técnica para unirte a nuestro equipo en Limboteams como Desarrollador de Flutter. Estamos emocionados de ver lo que puedes hacer y queremos que disfrutes el proceso.
 
 ## Objetivo de la prueba
 
@@ -28,7 +28,7 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de interf
 
 ## Entrega
 
-Una vez que hayas completado la prueba, por favor, envíanos tu solución en un archivo comprimido (zip) con el código fuente de la aplicación y cualquier otra información que consideres relevante para evaluar tu trabajo.
+Una vez que hayas completado la prueba, por favor, envíanos a <limboteams@gmail.com> tu solución en un archivo comprimido (zip) con el código fuente de la aplicación y cualquier otra información que consideres relevante para evaluar tu trabajo.
 
 ## Notas finales
 
