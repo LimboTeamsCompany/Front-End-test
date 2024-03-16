@@ -28,7 +28,7 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de interf
 
 ## Entrega
 
-Una vez que hayas completado la prueba, por favor, envíanos a <limboteams@gmail.com> tu solución en un archivo comprimido (zip) con el código fuente de la aplicación y cualquier otra información que consideres relevante para evaluar tu trabajo.
+Una vez que hayas completado la prueba, por favor, envíanos a <space@limboteams.com> tu solución en un archivo comprimido (zip) con el código fuente de la aplicación y cualquier otra información que consideres relevante para evaluar tu trabajo.
 
 ## Notas finales
 
