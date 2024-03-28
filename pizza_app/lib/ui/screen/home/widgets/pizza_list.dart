@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pizza_app/models/pizza.dart';
+import 'package:provider/provider.dart';
 
+import '../../../../provider/app_state.dart';
 import '../../../../services/service.dart';
 import 'card.dart';
 
@@ -9,8 +11,10 @@ class PizzaList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dataAppState = Provider.of<AppStateProvider>(context).myPizzas;
+
     return FutureBuilder<List<Pizza>>(
-      future: PizzaServices.loadPizzasData(),
+      future: Future.value(dataAppState),
       builder: (BuildContext context, AsyncSnapshot<List<Pizza>> snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const CircularProgressIndicator();

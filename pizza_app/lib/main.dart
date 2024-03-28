@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:pizza_app/provider/app_state.dart';
 import 'package:pizza_app/ui/screen/home/home.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(ChangeNotifierProvider(
+    create: ((context) => AppStateProvider()),
+    child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -12,7 +17,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
         secondaryHeaderColor: const Color(0x80F98645),

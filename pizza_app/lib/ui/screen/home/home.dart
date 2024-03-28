@@ -1,10 +1,23 @@
 import 'package:flutter/material.dart';
-
 import 'package:pizza_app/ui/screen/home/widgets/my_search_bar.dart';
 import 'package:pizza_app/ui/screen/home/widgets/pizza_list.dart';
+import 'package:provider/provider.dart';
 
-class Home extends StatelessWidget {
+import '../../../provider/app_state.dart';
+
+class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
+
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<AppStateProvider>(context, listen: false).loadPizzas();
+  }
 
   @override
   Widget build(BuildContext context) {
